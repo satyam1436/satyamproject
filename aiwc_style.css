@@ -1,0 +1,189 @@
+body
+    {
+        margin: 0;
+    }
+    #mainarea
+        {
+            width:1519px;
+            height: 1050px;
+            background-color:#262626;
+        }
+        #listarea
+            {
+                width: 1519px;
+                height: 100px;
+                background-color: #262626;
+                position: sticky;
+                top: 0%;
+                opacity: 0.9;
+            }
+            #bla
+                {
+                    width: 230px;
+                    height: 100px;
+                    float: left;
+                }
+					#ltarea
+						{
+							width:380px;
+							height:100px;
+							float:left;
+						}
+						#logo
+							{
+								width:80px;
+								height:100px;
+								float:left;
+								margin:10px 0 0 0;
+							}
+							#logo img
+								{
+									width:80%;
+									height:80%;
+								}
+						#title
+							{
+								width:300px;
+								height:100px;
+								float:left;
+								color:white;
+							}
+					#menu
+						{
+							width:909px;
+							height:50px;
+							float:left;
+							padding:25px 0;
+						}
+						#menu ul
+							{
+								list-style:none;
+								margin:0;
+								padding:0;
+							}
+						#menu ul li
+							{
+								float:left;
+							}
+						#menu ul li a:link,#menu ul li a:visited
+							{
+								text-decoration:none;
+								color:white;
+								padding:10px 25px;
+								display:block;
+							}
+						#menu ul li a:hover
+							{
+								color:#6C99B0;
+							}
+						#menu ul li ul
+							{
+								display:none;
+							}
+						#menu ul li:hover ul
+							{
+								display:block;
+								z-index:1000;
+								position:absolute;
+								background:#262626;
+							}
+						#menu ul li ul li
+							{
+								float:none;
+							}
+        #toparea
+            {
+                width: 1519px;
+                height: 125px;
+                background-color: #CCFFCC;
+                text-align: center;
+                padding-top: 25px;
+            }
+        #blankarea
+            {
+                width:200px;
+                height:800px;
+                background-color: #CCFFCC;
+                float: left;
+            }
+        #aiwcarea
+            {
+                width:750px;
+                height: 800px;
+                background-color: #CCFFCC;
+                float: left;
+                text-align: center;
+            }
+            #logoarea
+                {
+                    width:750px;
+                    height: 125px;
+                    background-color: teal;
+                }
+                #logoarea img
+                    {
+                        width:100%;
+                        height: 100%;
+                        padding-bottom: 25px;
+                    }
+            #aiwcarea h1
+                    {
+                        padding-top: 30px;
+                    }
+            #aiwcarea p
+                    {
+                        font-size: 21px;
+                        text-align: left;
+                    }
+        #photoarea
+            {
+                width: 369px;
+                height: 630px;
+                background-color:#CCFFCC;
+                float: left;
+                padding-top: 170px;
+            }
+            #whitearea
+                {
+                    width:349px;
+                    height:500px;
+                    background-color: white;
+                    padding:10px 10px 0 10px;
+                }
+                #bluearea
+                    {
+                        width:349px;
+                        height:40px;
+                        background-color: #79ADC9;
+                        color: white;
+                    }
+                #whitearea ul
+                    {
+                        list-style: none;
+                        padding-left: 0;
+                        margin-left: 0;
+                    }
+                #whitearea ul li a:link,#whitearea ul li a:visited
+                    {
+                        text-decoration: none;
+                        color:black;
+                        display: block;
+                        margin: 10px 0;
+                    }
+                #whitearea ul li a:hover
+                    {
+                        color: #79ADC9;
+                    }
+                #whitearea img
+                    {
+                        width: 100%;
+                        height:50%;
+                    }
+        #blarea
+            {
+                width:200px;
+                height:800px;
+                background-color: #CCFFCC;
+                float: left;
+            }
+        

@@ -1,0 +1,391 @@
+body
+				{
+					margin:0;
+				}
+			#mainarea
+				{
+					width:1519px;
+					height: 2270px;
+					background:#002366;
+					margin:0;
+				}
+				#menuarea
+					{
+						width:1519px;
+						height:100px;
+						background:#262626;
+						position:sticky;
+						top:0;
+						opacity:0.9;	
+					}
+					#blankarea
+						{
+							width:230px;
+							height:100px;
+							float:left;
+						}
+					#ltarea
+						{
+							width:380px;
+							height:100px;
+							float:left;
+						}
+						#logo
+							{
+								width:80px;
+								height:90px;
+								float:left;
+								margin:10px 0 0 0;
+							}
+							#logo img
+								{
+									width:80%;
+									height:80%;
+								}
+						#title
+							{
+								width:300px;
+								height:100px;
+								float:left;
+								color:white;
+							}
+					#menu
+						{
+							width:909px;
+							height:30px;
+							float:left;
+							padding:25px 0;
+						}
+						#menu ul
+							{
+								list-style:none;
+								margin:0;
+								padding:0;
+							}
+						#menu ul li
+							{
+								float:left;
+							}
+						#menu ul li a:link,#menu ul li a:visited
+							{
+								text-decoration:none;
+								color:white;
+								padding:10px 25px;
+								display:block;
+							}
+						#menu ul li a:hover
+							{
+								color:#6C99B0;
+							}
+						#menu ul li ul
+							{
+								display:none;
+							}
+						#menu ul li:hover ul
+							{
+								display:block;
+								z-index:1000;
+								position:absolute;
+								background:#262626;
+							}
+						#menu ul li ul li
+							{
+								float:none;
+							}
+				#secondarea
+					{
+						width:1519px;
+						height:700px;
+						background:red;
+					}
+					#secondarea img
+						{
+							width:100%;
+							height:100%;
+						}
+				#thirdarea
+					{
+						width:1519px;
+						height:500px;
+						background:#FFFFFF;
+					}
+					#t1area
+						{
+							width:200px;
+							height:500px;
+							float:left;
+						}
+					#t2area
+						{
+							width:600px;
+							height:500px;
+							color:black;
+							float:left;
+							padding:50px 0;
+						}
+					#t3area
+						{
+							width:719px;
+							height: 450px;
+							float:left;
+                            padding-top: 50px;
+						}
+                        #t3menu
+                        {
+                            width:719px;
+                            height: 70px;
+                        }
+                        #t3menu ul
+                        {
+                            list-style: none;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        #t3menu ul li
+                        {
+                            float: left;
+                        }
+                        #t3menu ul li a:link
+							{
+								text-decoration:none;
+								padding:20px 25px;
+								display:block;
+								border-right: 1px;
+                                color:black;
+								border-radius: 5px;
+							}
+                        #t3menu ul li a:visited
+                            {
+                                text-decoration:none;
+								padding:20px 25px;
+								display:block;
+								border-right: 1px;
+                                color: #6C99B0;
+								border-radius: 5px;
+                            }
+                        #t3menu ul li a:hover
+                            {
+                                text-decoration:none;
+								padding:20px 25px;
+								display:block;
+								border-right: 1px;
+                                color: white;
+                                background: #6C99B0;
+								border-radius: 5px;
+                            }
+                            #t3menu ul li ul
+                            {
+                                display: none;
+                            }
+                            #t3menu ul li:link ul
+							{
+								display:block;
+								z-index:1000;
+								position:absolute;
+                                color: #6C99B0;
+							}
+						#t3menu ul li ul li
+							{
+								float:none;
+                                color:black;
+							}
+					#fourtharea
+						{
+							width:1519px;
+							height:480px;
+							background:#99FF99;
+						}
+							#recentarea
+								{
+									width: 1019px;
+									height: 80px;
+									text-align: center;
+									font: bold 15px arial;
+									padding-top: 20px;
+									padding-right: 500px;
+								}
+							#recentmenu
+								{
+									width: 1519px;
+									height:350px;
+									
+								}
+								.bmarea1
+									{
+										width: 187px;
+										height: 290px;
+										float: left;
+										padding: 60px 15px 0 15px;
+									}
+							.bmarea1 img
+								{
+									margin:0 50px;
+									transition-property:transform;
+									transition-duration: 6s;
+								}
+							.bmarea1 img:hover
+								{
+									transform: rotate(360deg);
+								}
+				#fiftharea
+					{
+						width:1519px;
+						height: 325px;
+						background:#FFC6B3;
+						padding-top: 25px;
+					}
+					#varea
+						{
+							width: 1519px;
+							height: 100px;
+							float: left;
+							text-align: center;
+							font:bold 30px arial;
+							color: #313338;
+						}
+					#qarea
+						{
+							width:1019px;
+							height:125px;
+							padding:25px 250px 100px 250px ;
+							float: left;
+						}
+						#qearea
+							{
+								width:1119px;
+								height:60px;
+								background-color: white;
+								font:bold 30px arial;
+								text-align:center;
+								padding:5px 0 35px 0;
+								border-radius: 10px;
+								color:#002366
+							}
+				#sixtharea
+					{
+						width:1519px;
+						height:430px;
+						background:#1E2223;
+					}
+					#barea
+						{
+							width: 253px;
+							height: 400px;
+							float: left;
+						}
+					#farea
+						{
+							width: 223px;
+							height: 350px;
+							float: left;
+							color: white;
+							padding-top:50px ;
+							padding-right: 30px;						
+						}
+					#sarea
+						{
+							width: 253px;
+							height: 350px;
+							float: left;
+							padding-top: 50px;
+						}
+						#sarea ul
+							{
+								list-style: none;
+								margin: 0;
+								padding: 0;
+							}
+						#sarea ul li a:link,#sarea ul li a:visited
+							{
+								font:bold 15px arial;
+								color: #56788A;
+								text-decoration: none;
+							}
+					#tarea
+						{
+							width: 253px;
+							height: 350px;
+							float: left;
+							padding-top: 50px;
+						}
+						#tarea ul
+							{
+								list-style: none;
+								margin: 0;
+								padding: 0;
+							}
+						#tarea ul li a:link,#tarea ul li a:visited
+							{
+								font:bold 15px arial;
+								color: #56788A;
+								text-decoration: none;
+							}
+					#foarea
+						{
+							width: 253px;
+							height: 350px;
+							float: left;
+							padding-top: 50px;
+						}
+						.fobox
+							{
+								width:253px;
+								height:40px;
+								color:white;
+								float: left;
+								padding: 0;
+								margin: 0;
+							}
+						#f1a
+							{
+								width:253px;
+								height:100px;
+								font:bold 14px arial;
+								float: left;
+								color:white;
+							}
+					#blarea
+						{
+							width: 254px;
+							height: 400px;
+							float: left;
+						}
+				#seventharea
+					{
+						width:1519px;
+						height:60px;
+						padding: 0;
+						margin: 0;
+					}
+					.blankarea
+						{
+							width:200px;
+							height:60px;
+							float: left;
+							padding: 0;
+							margin: 0;
+						}
+					#copyarea
+						{
+							width:300px;
+							height: 60px;
+							float: left;
+							padding: 0;
+							margin: 0;
+						}
+					#bigblank
+						{
+							width: 600px;
+							height: 60px;
+							float: left;
+							padding: 0;
+							margin: 0;
+						}
+					#designarea
+						{
+							width:219px;
+							height: 60px;
+							float: left;
+							padding: 0;
+							margin: 0;
+						}
